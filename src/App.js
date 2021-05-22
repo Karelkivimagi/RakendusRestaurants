@@ -15,7 +15,6 @@ const theme = createMuiTheme ({
     primary: green,
   },
 });
-
 const App = () => (
   <Provider store={store}>
     <ThemeProvider theme={theme}>
